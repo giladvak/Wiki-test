@@ -1,0 +1,123 @@
+html {
+    font-family: sans-serif;
+}
+.a{
+    position: relative;
+    top: 3vh;
+    width: 70%;
+left: 65%;
+
+}
+.img{
+    position: absolute;
+    right: 5px;
+    top: 3vh;
+ 
+}
+.img2{
+    position: absolute;
+    right: 10%;
+    width: 60px;
+    height: 60
+    ;
+}
+.topright  {
+float: right;
+margin: 0 2px;
+
+
+
+}
+ 
+   
+    
+.uppernav{
+    margin-top:40px;
+    
+    
+}
+.uppernav a{
+    background-color: rgba(10, 30, 100, 0.6);
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    
+    border-radius: 5px;
+   
+}
+.uppernav a:hover{
+    color: white;
+
+}
+
+
+.search{
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    height: 25px;
+    z-index: 1;
+    
+  
+    
+    
+}
+.floatbutton{
+    
+    position:absolute;
+    top: 30px;
+    right: 32%;
+    height: 25px;
+    width: 50px;
+border: 2px solid black;
+border-radius: 12%;
+    
+}
+.floatbutton:hover{
+    z-index: 3;
+}
+.searchbutton{
+    height: 20px;
+    width: 20px;
+    
+}
+.eggplant{
+    position: absolute;
+    margin:0 25%;
+    
+}
+
+    
+
+h1{ 
+    position:relative ;
+    left:90%
+     ;
+;
+}
+.aside{
+    width: 250px;
+    float: left;
+    
+    padding: 0;
+    border: 2px solid black;
+    height: 500px;
+}
+.p2{
+    text-align: center;
+    background-color: rgb(105, 181, 105);
+}
+ table{border-spacing: 40px 5px;
+    
+}
+a{
+    text-decoration: none;
+}
+.p1{text-align: center;}
+#img3{
+    position: relative;
+    left:200px ;
+    bottom: 45px;
+    width: 30px;
+   
+}
