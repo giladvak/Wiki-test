@@ -36,17 +36,20 @@ html {
 
 .uppernav {
     margin-top: 40px;
-
+    
+    
 
 }
 
 .uppernav a {
-    background-color: rgba(10, 30, 100, 0.6);
+    background-color: rgb(220, 223, 232);
+    border: 1px solid gray;
+    border-top: none;
     padding: 5px;
     text-decoration: none;
     color: black;
 
-    border-radius: 5px;
+    border-radius: 2px;
 
 }
 
@@ -91,8 +94,10 @@ html {
 }
 
 .eggplant {
-    position: absolute;
-    margin: 0 25%;
+    position: relative;
+   margin-right: 195px;
+   
+
 
 }
 
@@ -107,6 +112,8 @@ h1 {
 .aside {
     width: 250px;
     float: left;
+    position: absolute;
+    top:  30vh;
 
     padding: 0;
     border: 2px solid black;
@@ -126,6 +133,10 @@ table {
 
 a {
     text-decoration: none;
+}
+.p{ position: absolute;
+    right: 0;
+    width: 70%;
 }
 
 .p1 {
@@ -166,11 +177,16 @@ a {
     position: absolute;
     right: 0%;
     border-left: 1px solid rgb(194, 194, 232); 
+    font-size: 12px;
       
 }
+
+
 .tip{
     position: relative;
-    top: 15px;
+    margin-top: 60px;
+    font-size: 1rem;
+    
     
 }
 .h2{
@@ -183,7 +199,12 @@ a {
     height: 250px;
     border: 1px solid black;
     position: relative;
+    top: 20px;
     background-color: rgb(223, 231, 251);    
+    
+}
+.eggs.eggs1{
+    margin-bottom: 30px;
 }
 .inner{
    margin: 5px;
@@ -199,7 +220,7 @@ a {
 }
 .table2{
     border: 1px solid grey;
-    height: 200px;
+    height: 220px;
     text-align: center;
 }
 
@@ -212,3 +233,99 @@ a {
     margin: 0;
     padding: 0;
 }
+.navarticle{
+    display: table;
+    position: absolute;
+    border: 1px solid  rgb(177, 186, 241) ;
+    width: 150px;
+    height: 200px;
+    right: 2vw;
+    margin-top: 90px;
+    padding: 7px;
+    background-color: rgb(220, 223, 232) ;
+    
+    
+    }
+    
+    .navarticle p{text-align: right;
+        margin: 10px;
+        
+    }
+.displaynone {
+display: inline;
+position: relative;
+left:12px
+;
+    
+    text-align: right;
+    
+  
+   padding: 0;
+}
+.article2{
+    margin: 400px 0;
+    margin-bottom: 10%;
+    position: relative;
+    
+    
+}
+.article2 h2{
+    text-align: right;
+    margin-right: 40px;
+    
+    
+}
+.article2 hr{
+    position: relative;
+     width: 80%;
+     left: 10%;
+    
+     
+}
+.article3{
+    margin-top: 100px;
+    
+    
+}
+.article3 h2{
+    text-align: right;
+    margin-right: 40px;
+    
+    
+}
+.article3 hr{
+    position: relative;
+     width: 80%;
+     left: 10%;
+     
+    
+     
+}
+
+.article4{
+    margin-top: 100px;
+    
+    
+    
+    
+    
+}
+.article4 h2{
+    text-align: right;
+    margin-right: 40px;
+    
+    
+}
+.article4 hr{
+    position: relative;
+     width: 80%;
+     left: 10%;
+    }
+    .sof{
+        position: absolute;
+        right: 300px;
+        text-align: center;
+        margin: 200px;
+        margin-top: 250px;
+        width:200px;
+    }
