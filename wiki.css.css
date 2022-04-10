@@ -1,8 +1,11 @@
 html {
     font-family: sans-serif;
 }
+.head{
+    
+}
 
-.a {
+.searchbar {
     position: relative;
     top: 3vh;
     width: 65%;
@@ -24,40 +27,6 @@ html {
     height: 60;
 }
 
-.topright {
-    float: right;
-    margin: 0 2px;
-
-
-
-}
-
-
-
-.uppernav {
-    margin-top: 40px;
-
-
-
-}
-
-.uppernav a {
-    background-color: rgba(220, 223, 232,0.5);
-    border: 1px solid gray;
-    border-top: none;
-    padding: 5px;
-    text-decoration: none;
-    color: black;
-
-    border-radius: 2px;
-
-}
-
-.uppernav a:hover {
-    color: white;
-
-}
-
 
 .search {
     position: absolute;
@@ -74,6 +43,7 @@ html {
 .floatbutton {
 
     position: absolute;
+    
     top: 30px;
     right: 32%;
     height: 25px;
@@ -91,7 +61,37 @@ html {
     height: 20px;
     width: 20px;
 
+} 
+
+
+
+
+.uppernav {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+
 }
+
+.uppernav a {
+    background-color: rgba(220, 223, 232, 0.5);
+    border: 1px solid gray;
+    border-top: none;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+    border-radius: 2px;
+
+}
+
+.uppernav a:hover {
+    color: white;
+
+}
+
 
 .eggplant {
     position: relative;
@@ -246,13 +246,13 @@ a {
 .navarticle {
     display: table;
     position: absolute;
-    border: 1px solid rgba(25, 25, 26,0.5);
+    border: 1px solid rgba(25, 25, 26, 0.5);
     width: 150px;
     height: 200px;
     right: 2vw;
     margin-top: 90px;
     padding: 7px;
-    background-color: rgba(220, 223, 232,0.5);
+    background-color: rgba(220, 223, 232, 0.5);
 
 
 }
@@ -348,4 +348,10 @@ a {
     margin: 200px;
     margin-top: 250px;
     width: 200px;
+}
+
+@media all and (max-width:800px) {
+    article {
+        display: none;
+    }
 }
