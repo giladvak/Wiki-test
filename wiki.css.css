@@ -253,6 +253,7 @@ a {
     margin-top: 90px;
     padding: 7px;
     background-color: rgba(220, 223, 232, 0.5);
+    
 
 
 }
@@ -260,6 +261,11 @@ a {
 .navarticle p {
     text-align: right;
     margin: 10px;
+    
+    
+
+    
+    
 
 }
 
@@ -299,7 +305,8 @@ a {
 
 .article3 {
     margin-top: 100px;
-
+   
+    top: 0;
 
 }
 
@@ -321,7 +328,7 @@ a {
 
 .article4 {
     margin-top: 100px;
-
+    
 
 
 
@@ -355,3 +362,16 @@ a {
         display: none;
     }
 }
+
+summary{
+    font-size: 15px;
+    color: blue;
+    margin-right: 100px;
+    
+   
+}
+details{
+    position: relative;
+    bottom: 25px;
+}
+
